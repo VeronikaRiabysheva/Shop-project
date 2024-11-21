@@ -1,0 +1,54 @@
+.full-item img:hover {
+  transform: scale(1.05);
+}
+
+.full-item {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.777);
+  z-index: 9999;
+  overflow: auto;
+}
+
+.full-item > div {
+  width: 500px;
+  position: relative;
+  margin: 10% auto;
+  padding: 40px 30px;
+  border-radius: 9px;
+  background: rgb(248, 246, 246);
+}
+
+.full-item .add-to-cart {
+  float: right;
+  margin-bottom: 60px;
+  margin-right: 20px;
+  background: rgb(205, 27, 27);
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 500ms ease;
+}
+
+.full-item .add-to-cart:hover {
+  transform: scale(1.5) translateY(-5px);
+}
+
+.full-item > img {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 64%;
+  z-index: 100000;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}

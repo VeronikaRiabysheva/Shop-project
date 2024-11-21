@@ -1,0 +1,125 @@
+/* .contacts-all {
+  font-size: 22px;
+  /* margin-bottom: 30px;
+  padding: auto 50px; */
+/* }
+.contacts {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  padding: auto 50px;
+  margin-bottom: 50px;
+  height: 160px; */
+/* background: rgba(128, 128, 128, 0.071); */
+/* }
+
+.contacts-qa {
+  margin-bottom: 50px;
+}
+.contacts-title {
+  font-size: 26px;
+  font-family: "Pacifico", cursive;
+  font-weight: 500;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.contacts-span {
+  font-weight: 1000;
+  color: rgb(15, 136, 15);
+}
+
+.contacts-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+.contacts-box > h3 {
+  margin-bottom: 20px;
+} */
+
+.contacts-all {
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 20px 50px;
+  max-width: 1200px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-title {
+  font-size: 28px;
+  font-family: "Pacifico", cursive;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contacts-qa {
+  margin-left: 10px;
+  color: #555;
+  margin-top: 50px;
+  font-size: 22px;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contacts-box {
+  flex: 1;
+  min-width: 220px; /* Минимальная ширина для адаптивности */
+  margin: 10px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.contacts-box:hover {
+  transform: scale(1.05); /* Легкое увеличение при наведении */
+}
+
+.contacts-box h4 {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.contacts-box p {
+  color: #666;
+  margin: 0;
+}
+
+.contacts-span {
+  font-weight: bold;
+  color: green;
+  font-size: 22px;
+}
+
+@media (max-width: 600px) {
+  .contacts-all {
+    padding: 10px;
+  }
+
+  .contacts-title {
+    font-size: 24px;
+  }
+
+  .contacts-box {
+    margin: 5px 0;
+  }
+}
