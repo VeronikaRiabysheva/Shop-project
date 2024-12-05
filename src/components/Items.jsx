@@ -29,7 +29,7 @@ export default function Items(props) {
       >
         +
       </p> */}
-      <p className="item-count">{itemCount}</p>
+      {/* <p className="item-count">{itemCount}</p> */}
     </div>
   );
 }
