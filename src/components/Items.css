@@ -67,3 +67,17 @@ main .item img:hover {
 .add-to-cart:hover {
   transform: scale(1.5) translateY(-5px);
 }
+
+.item-count {
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  /* border: solid green; */
+  font-weight: 400;
+}
